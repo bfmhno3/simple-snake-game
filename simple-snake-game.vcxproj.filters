@@ -15,9 +15,18 @@
     <ClCompile Include="src\snake.c">
       <Filter>src</Filter>
     </ClCompile>
+    <ClCompile Include="src\test.c">
+      <Filter>src</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="inc\snake.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\main.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\test.h">
       <Filter>inc</Filter>
     </ClInclude>
   </ItemGroup>

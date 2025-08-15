@@ -21,9 +21,12 @@
   <ItemGroup>
     <ClCompile Include="src\main.c" />
     <ClCompile Include="src\snake.c" />
+    <ClCompile Include="src\test.c" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="inc\main.h" />
     <ClInclude Include="inc\snake.h" />
+    <ClInclude Include="inc\test.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
@@ -124,6 +127,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>$(SolutionDir)\inc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
